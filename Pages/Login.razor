@@ -1,0 +1,82 @@
+﻿@using System;
+@using System.IO;
+@using BCrypt.Net;
+@using InventoryManagement.Data;
+@*@inject LoginC Loginn;*@
+@page "/"
+
+<div class="bg">
+<h1>Login</h1>
+<label>Username: </label>
+<input type="text" @bind="@username">
+<br>
+<br>
+<label>Password:</label>
+<input type="password" @bind="@password">
+<br>
+<br>
+</div>
+
+<button class="btn btn-primary" @onclick="UserLogin">Log in</button>
+
+<p>password valid: @verified</p>
+<p>first username in file: @un1</p>
+<p>first password in file: @pw1</p>
+<p>u: @username</p>
+<p>p: @password</p>
+<p>path: @sFilePath</p>
+<p>sixpaths: @g</p>
+<p>sixpathspain: @InventoryManagement.Data.LoginC.Un</p>
+
+@code {
+    public string g;
+    //<p role="status">hashed password: @passwordHash</p>
+    //private string passwordHash = BCrypt.HashPassword("mango");
+    public string username { get; set; } = "";
+    public string password { get; set; } = "";
+    //private string _lname { get; set; }
+    //string username = "asdkjfha";
+    bool verified = false;
+    string un1 = "";
+    string pw1 = "";
+
+    string sFilePath;
+    //private void AllUserCreds(){}
+    //string hp = "$2a$11$2hL2T7R5SIdQBxj2Sbvqeug0L3d85SqPUsn0CVGAWTo1uUI8CaSUa";
+    private void UserLogin()
+    {
+        try
+        {
+            LoginC objj = new LoginC();
+            g = objj.Greet();
+        } catch (Exception e)
+        {
+            g = e.ToString();
+        }
+        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        string appDirectory = Path.Combine(desktopPath, "dotNET\\coursework\\InventoryManagement");
+        string file = Path.Combine(appDirectory, "login_credencials.csv");
+        // step one: get all user credencials form 
+        //string file = @"C:\Users\Prazol\Desktop\login_credencials.csv";
+        //string file = @"login_credencials.csv";
+        sFilePath = Path.GetFullPath(file);
+        if (File.Exists(file))
+        {
+            // Store each line in array of strings
+            string[] lines = File.ReadAllLines(file);
+
+            string[] u1c =  lines[0].Split(',');
+            un1 = u1c[0];
+            pw1 = u1c[1];
+            verified = BCrypt.Verify(password, pw1);
+            // use loop to iterate and comapare each username with entered username.
+        }
+
+        
+    }
+
+    private void UpdateUsername(object sender, ValueChangedEventArgs e)
+    {
+        //username = Usr.Value.toString();
+    }
+}
