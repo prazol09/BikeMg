@@ -1,7 +1,14 @@
-﻿@page "/home";
+﻿@page "/home"
 
-<h1>Hello, multiverse!</h1>
+<h3 style="@hStyle" @onclick="Aaa">This is home sewwt home, baby!!</h3>
+<h3 style="@hStyle">login status: @sss</h3>
 
-Welcome to your final app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+    private bool sss;
+    private string hStyle = "width: 300px; height:100px; color:aqua; background-color: black";
+    private void Aaa()
+    {
+        Login l = new Login();
+        sss = l.LoginStatus;
+    }
+}

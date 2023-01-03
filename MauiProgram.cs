@@ -2,7 +2,6 @@
 using InventoryManagement.Data;
 
 namespace InventoryManagement;
-
 public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()

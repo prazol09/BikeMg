@@ -1,0 +1,43 @@
+﻿@page "/inventoryitems"
+@using InventoryManagement.Data;
+
+<h3>This is available items in the inventory!!</h3>
+<table class="table">
+	<thead>
+		<tr>
+			<th>@AllItemsArray[0][0]</th>
+			<th>@AllItemsArray[0][1]</th>
+			<th>@AllItemsArray[0][2]</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (string[] ItemArray in AllItemsArray)
+		{
+			// to ignore the first element from the array that contains headers
+			@if (ItemArray.SequenceEqual(AllItemsArray[0]))
+			{
+				continue;
+			} else
+			{
+				<tr>
+					<td>@ItemArray[0]</td>
+					<td>@ItemArray[1]</td>
+					<td>@ItemArray[2]</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+
+@code {
+	//private string hStyle = "width: 2080px; height:100px; color:aqua; background-color: black";
+	// an array of items to loop through
+	string[][] AllItemsArray;
+
+	// constructor to initialize above varaible/ 2d array
+	public InventoryItems()
+	{
+		AllItems i = new AllItems();
+		AllItemsArray = i.GetAllItems();
+	}
+}

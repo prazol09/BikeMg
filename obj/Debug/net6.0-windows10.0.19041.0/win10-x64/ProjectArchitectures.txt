@@ -1,1 +1,1 @@
-C:\Users\Prazol\Desktop\dotNET\coursework\InventoryManagement\InventoryManagement.csproj;x64
+C:\Users\Prazol\Desktop\InventoryManagement\InventoryManagement.csproj;x64

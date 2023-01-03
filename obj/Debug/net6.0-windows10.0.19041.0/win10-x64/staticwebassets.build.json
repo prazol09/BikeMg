@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d7AoTxe7rI5yL9nJtyGKnYifHUaGpg3hUPvuC3zhuEw=",
+  "Hash": "MtVlD/cNqwAPVcJ/Vf7DsaeJRBk11IDM61oYe5QQKyQ=",
   "Source": "InventoryManagement",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,51 @@
     {
       "Name": "InventoryManagement\\wwwroot",
       "Source": "InventoryManagement",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\InventoryManagement.styles.css",
+      "Identity": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Prazol\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\InventoryManagement.styles.css",
       "SourceId": "InventoryManagement",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "InventoryManagement.styles.css",
       "AssetKind": "All",
@@ -31,13 +65,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\InventoryManagement.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\InventoryManagement.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\InventoryManagement.bundle.scp.css",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\InventoryManagement.bundle.scp.css",
       "SourceId": "InventoryManagement",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "InventoryManagement.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +82,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\InventoryManagement.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\InventoryManagement.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\app.css",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -68,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\favicon.ico",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\index.html",
       "SourceId": "InventoryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\dotNET\\coursework\\InventoryManagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",
