@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[6.0.547, )",
@@ -121,6 +125,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
             },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
@@ -218,6 +226,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[6.0.547, )",
@@ -314,6 +326,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
             },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",

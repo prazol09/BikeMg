@@ -1,0 +1,71 @@
+﻿@page "/approveitems"
+@using MudBlazor;
+@*@using HtmlAgilityPack;*@
+@using InventoryManagement.Data;
+
+<h3>Approve Items</h3>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			@*<th>@AllTakenItemsArray[0][0]</th>*@
+			<th>@AllTakenItemsArray[0][1]</th>
+			<th>@AllTakenItemsArray[0][2]</th>
+			<th>@AllTakenItemsArray[0][3]</th>
+			<th>@AllTakenItemsArray[0][4]</th>
+			<th>@AllTakenItemsArray[0][5]</th>
+			<th>@AllTakenItemsArray[0][6]</th>
+			<th>@AllTakenItemsArray[0][7]</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (string[] ItemArray in AllTakenItemsArray)
+		{
+			
+			// to ignore the first element from the array that contains headers
+			@if (ItemArray.SequenceEqual(AllTakenItemsArray[0]))
+			{
+				continue;
+			}
+			else
+			{
+				<tr>
+					<td>@ItemArray[0]</td>
+					<td>@ItemArray[1]</td>
+					<td>@ItemArray[2]</td>
+					<td>@ItemArray[3]</td>
+					<td>@ItemArray[4]</td>
+					<td>@ItemArray[5]</td>
+					<td>@ItemArray[6]</td>
+					@*approve button is conditionally rendered*@
+					@if (ItemArray[7] == "not approved") {
+						<td><MudButton Variant="Variant.Outlined" OnClick="@(() => Edit(@ItemArray[0], @ItemArray[2]))">Approve</MudButton></td>
+					}else{
+						<td>@ItemArray[7]</td>
+					}
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+<p>Yo Yo: @s</p>
+
+@code {
+	string s = "";
+	string[][] AllTakenItemsArray;
+
+	// constructor to initialize above varaible/ 2d array
+	public TakenItems()
+	{
+		AllTakenItems i = new AllTakenItems();
+		AllTakenItemsArray = i.GetAllTakenItems();
+	}
+
+	private void Edit(string ID, string Quantity)
+	{
+		s = "You clicked: " + ID + ", having quantity: " + Quantity;
+		// write to taken_inventory
+		// write to inventory_details
+	}
+	
+}

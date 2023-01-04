@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\Prazol\Desktop\InventoryManagement\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-03T08:41:03.133</Modified>
+      <Modified>2023-01-04T05:31:24.197</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-03T08:41:02.155</Modified>
+      <Modified>2023-01-04T05:31:23.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\InventoryManagement.runtimeconfig.json">
       <PackagePath>InventoryManagement.runtimeconfig.json</PackagePath>
-      <Modified>2023-01-03T07:14:45.704</Modified>
+      <Modified>2023-01-03T17:31:33.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\InventoryManagement.dll">
       <PackagePath>InventoryManagement.dll</PackagePath>
-      <Modified>2023-01-03T08:41:01.030</Modified>
+      <Modified>2023-01-04T05:31:22.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>InventoryManagement.exe</PackagePath>
-      <Modified>2023-01-03T08:41:01.338</Modified>
+      <Modified>2023-01-04T05:31:23.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.11\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -970,6 +970,10 @@
       <PackagePath>BCrypt.Net-Next.dll</PackagePath>
       <Modified>2022-03-03T16:10:20.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\htmlagilitypack\1.11.46\lib\netstandard2.0\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2022-09-14T13:23:02.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\microsoft.aspnetcore.authorization\6.0.11\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
       <Modified>2022-10-23T22:38:44.000</Modified>
@@ -1140,7 +1144,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\InventoryManagement.deps.json">
       <PackagePath>InventoryManagement.deps.json</PackagePath>
-      <Modified>2023-01-03T08:41:02.974</Modified>
+      <Modified>2023-01-04T05:31:24.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\microsoft.maui.controls.ref.win\6.0.547\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1168,11 +1172,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\InventoryManagement.styles.css">
       <PackagePath>wwwroot\InventoryManagement.styles.css</PackagePath>
-      <Modified>2023-01-03T07:38:54.490</Modified>
+      <Modified>2023-01-03T17:29:22.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\InventoryManagement.bundle.scp.css">
       <PackagePath>wwwroot\InventoryManagement.bundle.scp.css</PackagePath>
-      <Modified>2023-01-03T07:38:54.491</Modified>
+      <Modified>2023-01-03T17:29:22.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -1232,23 +1236,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.715</Modified>
+      <Modified>2023-01-03T17:31:31.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.728</Modified>
+      <Modified>2023-01-03T17:31:31.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.746</Modified>
+      <Modified>2023-01-03T17:31:31.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.771</Modified>
+      <Modified>2023-01-03T17:31:31.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.867</Modified>
+      <Modified>2023-01-03T17:31:31.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1256,207 +1260,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-12-25T11:36:46.908</Modified>
+      <Modified>2023-01-03T17:31:31.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.089</Modified>
+      <Modified>2023-01-03T17:31:31.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.098</Modified>
+      <Modified>2023-01-03T17:31:31.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.104</Modified>
+      <Modified>2023-01-03T17:31:31.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.117</Modified>
+      <Modified>2023-01-03T17:31:31.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.165</Modified>
+      <Modified>2023-01-03T17:31:31.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.959</Modified>
+      <Modified>2023-01-03T17:31:31.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.962</Modified>
+      <Modified>2023-01-03T17:31:31.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.971</Modified>
+      <Modified>2023-01-03T17:31:31.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.964</Modified>
+      <Modified>2023-01-03T17:31:31.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.966</Modified>
+      <Modified>2023-01-03T17:31:31.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.943</Modified>
+      <Modified>2023-01-03T17:31:31.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.945</Modified>
+      <Modified>2023-01-03T17:31:31.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.957</Modified>
+      <Modified>2023-01-03T17:31:31.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.947</Modified>
+      <Modified>2023-01-03T17:31:31.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.950</Modified>
+      <Modified>2023-01-03T17:31:31.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.914</Modified>
+      <Modified>2023-01-03T17:31:31.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.916</Modified>
+      <Modified>2023-01-03T17:31:31.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.919</Modified>
+      <Modified>2023-01-03T17:31:31.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.921</Modified>
+      <Modified>2023-01-03T17:31:31.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.925</Modified>
+      <Modified>2023-01-03T17:31:31.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.928</Modified>
+      <Modified>2023-01-03T17:31:31.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.930</Modified>
+      <Modified>2023-01-03T17:31:31.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.940</Modified>
+      <Modified>2023-01-03T17:31:31.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.932</Modified>
+      <Modified>2023-01-03T17:31:31.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.935</Modified>
+      <Modified>2023-01-03T17:31:31.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.008</Modified>
+      <Modified>2023-01-03T17:31:31.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.013</Modified>
+      <Modified>2023-01-03T17:31:31.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.017</Modified>
+      <Modified>2023-01-03T17:31:31.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.023</Modified>
+      <Modified>2023-01-03T17:31:31.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.035</Modified>
+      <Modified>2023-01-03T17:31:31.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.988</Modified>
+      <Modified>2023-01-03T17:31:31.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.991</Modified>
+      <Modified>2023-01-03T17:31:31.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.994</Modified>
+      <Modified>2023-01-03T17:31:31.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.997</Modified>
+      <Modified>2023-01-03T17:31:31.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.004</Modified>
+      <Modified>2023-01-03T17:31:31.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.974</Modified>
+      <Modified>2023-01-03T17:31:31.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.976</Modified>
+      <Modified>2023-01-03T17:31:31.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.979</Modified>
+      <Modified>2023-01-03T17:31:31.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.981</Modified>
+      <Modified>2023-01-03T17:31:31.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.986</Modified>
+      <Modified>2023-01-03T17:31:31.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.039</Modified>
+      <Modified>2023-01-03T17:31:31.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.044</Modified>
+      <Modified>2023-01-03T17:31:31.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.050</Modified>
+      <Modified>2023-01-03T17:31:31.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.059</Modified>
+      <Modified>2023-01-03T17:31:31.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.082</Modified>
+      <Modified>2023-01-03T17:31:31.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.938</Modified>
+      <Modified>2023-01-03T17:31:31.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.947</Modified>
+      <Modified>2023-01-03T17:31:31.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.958</Modified>
+      <Modified>2023-01-03T17:31:31.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-12-25T11:36:46.974</Modified>
+      <Modified>2023-01-03T17:31:31.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-12-25T11:36:47.015</Modified>
+      <Modified>2023-01-03T17:31:31.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\Desktop\InventoryManagement\Pages\Login.razor.css">
       <PackagePath>Pages\Login.razor.css</PackagePath>

@@ -727,6 +727,9 @@
     <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\bcrypt.net-next\4.0.3\lib\net6.0\BCrypt.Net-Next.dll">
       <PackagePath>BCrypt.Net-Next.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\htmlagilitypack\1.11.46\lib\netstandard2.0\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prazol\.nuget\packages\microsoft.aspnetcore.authorization\6.0.11\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>

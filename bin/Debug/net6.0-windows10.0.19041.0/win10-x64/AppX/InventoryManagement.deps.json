@@ -10,6 +10,7 @@
       "InventoryManagement/1.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
+          "HtmlAgilityPack": "1.11.46",
           "Microsoft.AspNetCore.Components.WebView.Maui": "6.0.547",
           "Microsoft.Maui.Dependencies": "6.0.547",
           "Microsoft.Maui.Extensions": "6.0.547",
@@ -914,6 +915,14 @@
           }
         }
       },
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.11": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.11",
@@ -1382,6 +1391,13 @@
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.11": {
       "type": "package",

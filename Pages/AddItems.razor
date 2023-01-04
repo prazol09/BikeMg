@@ -1,0 +1,38 @@
+﻿@page "/additems"
+@using MudBlazor;
+@using InventoryManagement.Data;
+
+<MudCard>
+    <h3>Add New Item</h3>
+    <label>Item Name: </label>
+    <input type="text" @bind="@Item">
+    <label>Quantity:</label>
+    <input type="text" @bind="@Quantity">
+    <button class="btn btn-primary" @onclick="AddI">Add</button>
+</MudCard>
+<MudCard>
+    <h3>Add Quantity</h3>
+    <label>Item:</label>
+    <select name="Item">
+        <option value="red">Item 1</option>
+        <option value="green">Item 2</option>
+        <option value="blue">Item 3</option>
+    </select>
+    <label>Quantity:</label>
+    <input type="text" @bind="@Quantity">
+    <button class="btn btn-primary" @onclick="AddI">Add</button>
+</MudCard>
+
+@code {
+    public string Item { get; set; } = "";
+    public string Quantity { get; set; } = "";
+
+    // append to a text file
+    public void AddI()
+    {
+        string item = Item + "," + Quantity;
+
+        AddNewItem i = new AddNewItem();
+        i.AddItem(item);
+    }
+}

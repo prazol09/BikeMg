@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UDVzEMa9I0zLR/G7SrukwEM3lWCR1AJMp9Zs+IvzUHi7fE1mIk9MyTOi4mJwu8kqI/xfx1VvbbLydTaCTWFutA==",
+  "dgSpecHash": "mYCzr5EoMCMIetudfGIGYct2IhYgXEMR+RkpqhHGHgtG6uvbqvTph9d199e9HItuGKGTXUShkqTUfCV9r+LAGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Prazol\\Desktop\\InventoryManagement\\InventoryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prazol\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Prazol\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
+    "C:\\Users\\Prazol\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Prazol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "C:\\Users\\Prazol\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",
     "C:\\Users\\Prazol\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.11\\microsoft.aspnetcore.components.analyzers.6.0.11.nupkg.sha512",

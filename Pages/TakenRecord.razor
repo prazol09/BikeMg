@@ -1,0 +1,46 @@
+﻿@page "/takenrecord"
+@using MudBlazor;
+@*@using HtmlAgilityPack;*@
+@using InventoryManagement.Data;
+
+<MudCard>
+	<h3>Taken Record</h3>
+	<label>For the Month:</label>
+	<select name="Month" @onchange="@OnSelect">
+		<option value="01">jan</option>
+		<option value="02">feb</option>
+		<option value="03">mar</option>
+		<option value="04">apr</option>
+		<option value="05">may</option>
+		<option value="06">jun</option>
+		<option value="07">jul</option>
+		<option value="08">aug</option>
+		<option value="09">sep</option>
+		<option value="10">oct</option>
+		<option value="11">nov</option>
+		<option value="12">dec</option>
+	</select>
+</MudCard>
+
+<p>Yo Yo: @s</p>
+
+@code {
+	//string sVal = Month.Items[dropdownName.SelectedIndex].Value;
+	string s = "";
+	string[][] AllTakenItemsArray;
+
+	// constructor to initialize above varaible/ 2d array
+	public TakenRecord()
+	{
+		AllTakenItems i = new AllTakenItems();
+		AllTakenItemsArray = i.GetAllTakenItems();
+	}
+
+	string selectedString = "jan";
+	void OnSelect(ChangeEventArgs e)
+	{
+		selectedString = e.Value.ToString();
+		s = "The selected country is : " + selectedString;
+	}
+	
+}
